@@ -1,0 +1,14 @@
+{
+	"name": "jQuery.overflowMenu",
+	"description": "The jQuery overflow menu plugin creates a drop down menu when to prevent the menu to overflow to the next line or when the number of menu items exceeds the given maximum.",
+	"version": "1.0.0",
+	"main": "assets/js/jquery.overflowmenu.min.js",
+	"ignore": [
+		"*.md",
+		"LICENSE",
+		"overflowmenu.jquery.json"
+	],
+	"dependencies": {
+		"jquery": ">= 1.7.0"
+	}
+}
