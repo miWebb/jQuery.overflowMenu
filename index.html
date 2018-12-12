@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<title>jQuery Overflow Menu</title>
+
+		<meta charset="utf-8" />
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/jquery.overflowmenu.css" />
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.overflowmenu.js"></script>
+		<script type="text/javascript">
+
+		$(window).load(function() {
+			$('#nav ul').overflowMenu({
+				overflow: horizontal
+			});
+		});
+
+		</script>
+	</head>
+	<body>
+		<div id="nav">
+			<div class="container">
+				<h1>jQuery <span>Overflow Menu</span></h1>
+				<ul>
+					<li><a href="https://github.com/miWebb/jQuery.overflowMenu/releases">Download</a></li>
+					<li><a href="https://github.com/miWebb/jQuery.overflowMenu">Documentation</a></li>
+					<li><a href="https://github.com/miWebb">GitHub</a></li>
+					<li><a href="https://www.miwebb.com">miWebb</a></li>
+					<li><a href="#example1">&#187;</a></li>
+					<li><a href="#example2">Example 2</a></li>
+					<li><a href="#example3">Example 3</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="page">
+			<section class="container">
+				<h1>Description</h1>
+				<p>The jQuery overflow menu plugin creates<br />
+					a drop down menu to prevent the menu to overflow<br/ >
+					to the next line or when the number of menu items<br />
+					exceeds the given maximum.</p>
+			</section>
+		</div>
+	</body>
+</html>
